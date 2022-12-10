@@ -37,7 +37,6 @@ en-gage.net へ履歴書自送りの Python: Selenium のボット
 
 <h2 style="margin: 0 auto" align="center">以前に仕事を探していた人、今仕事を探している人、将来仕事を探す予定のすべての人に、レポジトリの脚注にスターを付けて共有してください!</h2>
 <br>
-<hr>
 <p style="margin: 0 auto" align="center">私のウェブサイトをご覧ください：</p>
 <p style="margin: 0 auto" align="center">Please cast an eye on my website:</p>
 <h1><a href="https://nakigoe.org/" style="background-color: black;" target="_blank">
