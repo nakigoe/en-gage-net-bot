@@ -172,6 +172,7 @@ def main():
             driver.execute_script("arguments[0].click()", next_page_button)
             time.sleep(5) #change to finding the loading completion indicator
         except TimeoutException:
+            os.system("cls") #clear screen from unnecessary logs since the operation has completed successfully
             print("All the links within the current search query provided have been clicked. Change the search query 'keyword=' value for the next search.")
             break
     # Close the only tab, will also close the browser.
