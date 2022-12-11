@@ -47,7 +47,7 @@ username = "nakigoetenshi@gmail.com"
 password = "Super_Mega_Password"
 login_page = "https://en-gage.net/user/login/"
 # C# = c%23
-search_link = "https://en-gage.net/user/search/?from=top&keyword=c%23&employ%5B%5D=1&employ%5B%5D=2&employ%5B%5D=3&employ%5B%5D=5&employ%5B%5D=7&salaryType=0&span=0&PK=B8EE9E&token=638360416b942&area=%5B%5D&job=100000_150000_200000_250000_300000_350000_400000_450000_500000_550000_600000_650000&areaText=&distanceIndex=3&wish_no=#/"
+search_link = "https://en-gage.net/user/search/?from=top&keyword=リモート&employ%5B%5D=1&employ%5B%5D=2&employ%5B%5D=3&employ%5B%5D=5&employ%5B%5D=7&salaryType=0&span=0&PK=B8EE9E&token=638360416b942&area=%5B%5D&job=100000_150000_200000_250000_300000_350000_400000_450000_500000_550000_600000_650000&areaText=&distanceIndex=3&wish_no=#/"
 
 def click_all_jobs_on_the_page():
     try:
@@ -157,25 +157,45 @@ def main():
     login()
     time.sleep(5) #change to finding the loading completion indicatior
     
-    #type in the manual query:
-    driver.get(search_link)
-    time.sleep(5) #change to finding the loading completion indicator
+    # in case the server is overloaded, repeat the attempt 50 times
+    for i in range(50):
+        try:
+            #type in the manual query:
+            driver.get(search_link)
+            time.sleep(5) #change to finding the loading completion indicator
+            break
+        except TimeoutException:
+            continue
+        except StaleElementReferenceException:
+            continue
+    else:
+        os.system("cls") #clear screen from unnecessary logs since the operation has completed successfully
+        print("Cannot get the search results since the en-gage.net server is unresponsive. Try again later.")
+        driver.close()
     
     while True:
         click_all_jobs_on_the_page()
         # Switch back to the first tab with search results
         driver.switch_to.window(driver.window_handles[0])
 
-        #take in another hundred of results:
-        try:
-            next_page_button = wait.until(EC.element_to_be_clickable((By.XPATH, '//a[@class="page page--next md_btn md_btn--white"]')))
-            driver.execute_script("arguments[0].click()", next_page_button)
-            time.sleep(5) #change to finding the loading completion indicator
-        except TimeoutException:
+        # in case the server is overloaded, repeat the attempt 50 times
+        for i in range(50):
+            try:
+                next_page_button = wait.until(EC.element_to_be_clickable((By.XPATH, '//a[@class="page page--next md_btn md_btn--white"]')))
+                driver.execute_script("arguments[0].click()", next_page_button)
+                time.sleep(5) #change to finding the loading completion indicator
+                break
+            except TimeoutException:
+                continue
+            except StaleElementReferenceException:
+                continue
+        else:
             os.system("cls") #clear screen from unnecessary logs since the operation has completed successfully
-            print("All the links within the current search query provided have been clicked. Change the search query 'keyword=' value for the next search.")
+            print("It's either the en-gage.net server has become undresponsive or all the links within the current search query have been clicked. First check if en-gage.net is alive and responsive and if so, change the search query 'keyword=' value.")
             break
+            
     # Close the only tab, will also close the browser.
     driver.close()
     driver.quit()
 main()
+
