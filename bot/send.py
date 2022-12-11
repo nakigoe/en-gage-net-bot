@@ -1,3 +1,16 @@
+'''
+コードはMaxim Angel、別名Nakigoeによって書かれております。
+https://github.com/nakigoe/en-gage-net-bot で常に最新バージョンを見つけることができます。
+Python か C# のレッスンについては、nakigoetenshi@gmail.com までご連絡ください。
+2時間のレッスンは７千円になります。
+GitHub で星をつけて世界でシェア!!!
+
+Code written by Maxim Angel, aka Nakigoe
+You can always find the newest version at https://github.com/nakigoe/en-gage-net-bot
+contact me for Python and C# lessons at nakigoetenshi@gmail.com
+$50 for 2 hours lesson
+Put stars and share!!!
+'''
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
