@@ -165,8 +165,12 @@ def main():
             time.sleep(5) #change to finding the loading completion indicator
             break
         except TimeoutException:
+            driver.refresh()
+            time.sleep(5)
             continue
         except StaleElementReferenceException:
+            driver.refresh()
+            time.sleep(5)
             continue
     else:
         os.system("cls") #clear screen from unnecessary logs since the operation has completed successfully
@@ -186,8 +190,12 @@ def main():
                 time.sleep(5) #change to finding the loading completion indicator
                 break
             except TimeoutException:
+                driver.refresh()
+                time.sleep(5)
                 continue
             except StaleElementReferenceException:
+                driver.refresh()
+                time.sleep(5)
                 continue
         else:
             os.system("cls") #clear screen from unnecessary logs since the operation has completed successfully
