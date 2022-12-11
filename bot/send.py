@@ -47,7 +47,7 @@ username = "nakigoetenshi@gmail.com"
 password = "Super_Mega_Password"
 login_page = "https://en-gage.net/user/login/"
 # C# = c%23
-search_link = "https://en-gage.net/user/search/?from=top&keyword=リモート&employ%5B%5D=1&employ%5B%5D=2&employ%5B%5D=3&employ%5B%5D=5&employ%5B%5D=7&salaryType=0&span=0&PK=B8EE9E&token=638360416b942&area=%5B%5D&job=100000_150000_200000_250000_300000_350000_400000_450000_500000_550000_600000_650000&areaText=&distanceIndex=3&wish_no=#/"
+search_link = "https://en-gage.net/user/search/?from=top&keyword=c%23&employ%5B%5D=1&employ%5B%5D=2&employ%5B%5D=3&employ%5B%5D=5&employ%5B%5D=7&salaryType=0&span=0&PK=B8EE9E&token=638360416b942&area=%5B%5D&job=100000_150000_200000_250000_300000_350000_400000_450000_500000_550000_600000_650000&areaText=&distanceIndex=3&wish_no=#/"
 
 def click_all_jobs_on_the_page():
     try:
