@@ -19,6 +19,10 @@ en-gage.net へ履歴書自送りの Python: Selenium のボット
 
   •  https://www.python.org/downloads/
 
+### PIP が Python とともに自動的にインストールされていない場合は、PIP をインストールします:
+
+  •  https://pip.pypa.io/en/stable/installation/
+
 ### Python ライブラリをインストールなさってください (コマンド プロンプトを開いてください)：
 
   •  Selenium `pip install selenium`

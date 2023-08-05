@@ -1,42 +1,30 @@
-ども、初めまして、Angel Maxim （アンゲル • マクシム）と申します、マクシムと読んで下さい。
-日本人たちにいつもお世話になっております。
+いつもお世話になっております、
+ロシア経済大学の大学生、アンゲル • マキシムでございます。
+日本へ伺いたいもちろんです。
 
-  •  Adobe Photoshop　4年間
-  •  Adobe Illustrator　2年間
-  •  Adobe InDesign　1年間
-  •  Adobe Dreamweaver　4年間 
-  •  HTML、CSS　７年間
-  •  JavaScript　6月間　(ES6+, jQuery, GIS: Leaflet, OWASP)
-  •  C#　1年間　(ASP·NET Core Razor Pages, MVC, Blazor)
-  •  Python　1年間　(Django, Matplotlib, Scrapy, Beautiful Soup, Selenium, GREP RegEx)
-  •  C++　6月間
-  •  日本語　10年間（JLPT2ぐらい）
-  •  英語語　30年間
-  •  ロシア語 ネイティブ
-  •  タジク語 10年間
-  •  中国語 4年間
+数学、経済学、政策分析、サイバーセキュリティの知識がございます。
+英語、ロシア語、タジク語、中国語、日本語の話し言葉と文章ができます。
+Adobe Photoshop、Illustrator、InDesign、Acrobat、Dreamweaver を用いてデザインを行います。
+GPU 最適化された CSS、HTML アニメーション、SVG フィルターにも精通しております。
+C# ASP·NET、Python、PHP、JavaScript のウェブプログラミングを PHPStorm と Visual Studio で行えます。
 
-一か月は１５万円のPythonのフリーランサしております：
- ❥  高知県の水産業：https://github.com/nakigoe/sea
- ❥  ローカルPCからリモートサーバーにファイルをアップロードするDjangoフォーム：https://github.com/nakigoe/django-form
- ❥  en-gage.net へ履歴書を自送りのボット、クリック１で1日あたり履歴書を５０００まい送ります：https://github.com/nakigoe/en-gage-net-bot
+STKtechnika.ru でのフルスタックウェブ開発者（プログラマー）の職務内容：
+• PHP 5.6 から PHP 8.2 へのウェブサイトコードの完全な移行；
+• PHPMailer ライブラリのアップデート；
+• Node·js を使用して JavaScript ライブラリの更新；
+• ウェブサイトと Google、Yandex サービスの分析；
+• コンテンツ管理；
+• PHP、SQL、SCSS、HTML、CSS、JavaScript、jQuery、Node·js によるプログラミング；
+• SEO: schema·org 構造化データの RDFa、JSON-LD フォーマットでの実装；
 
- ❥  スキルリスト：https://nakigoe.org/_PDF/CV-ja.pdf
-
-私の2つのウェブサイトをご覧下さい：
- ❥  ASP·NET Core Blazor WebAssembly: NAKIGOE.ORG
- ❥  Bootstrap & jQuery & Leaflet: MAPS.NAKIGOE.ORG
-
-私は禁酒、非喫煙、無タトゥーでございます。
-趣味は囲碁、数学、言語学、ジムとバドミントンでございます。
-
-16:00～20:00日本標準時の面接に対応しております。
+日本と日本語が大好きで、御社のために働きたい人でございます、
 宜しくお願い致します！
 
-❤ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー❤
+⭐━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⭐
 　　Angel Maxim （アンゲル • マクシム）
-　　スキルリスト：https://nakigoe.org/_PDF/CV-ja.pdf
-　　顔の写真：www.linkedin.com/in/nakigoe
-　　メイル：teachermaxim@gmail.com
-　　サイト: nakigoe.org
-❤ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー❤
+　　💌 メール: teachermaxim@gmail.com
+　　💎 スキルリスト: nakigoe.org/_PDF/CV-ja.pdf
+　　⭐ GitHub プロジェクト: github.com/nakigoe#ja
+　　💘 ASP·NET Core Blazor WebAssembly： nakigoe.org/ja
+　　💝 Bootstrap & jQuery & Leaflet·JS： maps.nakigoe.org
+⭐━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⭐
