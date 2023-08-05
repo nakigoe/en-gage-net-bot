@@ -28,10 +28,6 @@ en-gage.net へ履歴書自送りの Python: Selenium のボット
 
   •  Selenium `pip install selenium`
 
-### bot フォルダーに Edge ドライバーをインストールなさってください：
-
-  •  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-  
 ### プログラムを開始！！！
 
   •  ダブルクリック `start.bat`
